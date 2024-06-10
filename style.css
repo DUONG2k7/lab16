@@ -1,0 +1,110 @@
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+    text-align: left;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+.menudoc{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.menudoc a{
+    background: url(images/dot1.png) no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.menudoc a:hover{
+    background: url(images/dot2.png) no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+header{
+    position: relative;
+    background-image: url(images/sv.jpg);
+    background-size: cover;
+    height: 300px;
+}
+footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: orangered;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+article{
+    float: left;
+    width: 65%;
+    padding: 20px;
+}
+article>h1{
+    color: red;
+}
+article>iframe{
+    height: 70vh;
+}
+article.map{
+    height: 100%;
+}
+aside.menudoc{
+    float: right;
+    width: 25%;
+    padding: 20px;
+    margin-top: 20px;
+}
